@@ -15,41 +15,17 @@
 # limitations under the License.
 #
 
+# Board device path
+DEVICE_PATH := device/sony/suzuran
+
+# Board common elements
 include device/sony/kitakami-common/BoardConfigCommon.mk
 
-DEVICE_PATH := device/sony/suzuran
+# Board device elements
+include $(DEVICE_PATH)/board/*.mk
 
 # Use Snapdragon LLVM, if available
 TARGET_USE_SDCLANG := true
 
-# Assert
-TARGET_OTA_ASSERT_DEVICE := E5803,E5823,suzuran
-
-# Boot image/kernel
-TARGET_KERNEL_CONFIG := kitakami_suzuran_defconfig
-
-# CM hardware
-BOARD_HARDWARE_CLASS += $(DEVICE_PATH)/cmhw
-TARGET_TAP_TO_WAKE_NODE := "/sys/devices/virtual/input/clearpad/wakeup_gesture"
-
-# Partitions
-BOARD_FLASH_BLOCK_SIZE := 262144 # (BOARD_KERNEL_PAGESIZE * 64)
-BOARD_BOOTIMAGE_PARTITION_SIZE := 67108864
-BOARD_CACHEIMAGE_PARTITION_SIZE := 209715200
-BOARD_PERSISTIMAGE_PARTITION_SIZE := 33554432
-BOARD_RECOVERYIMAGE_PARTITION_SIZE := 67108864
-BOARD_SYSTEMIMAGE_PARTITION_SIZE := 5513412608
-# Reserve space for data encryption (24763170816-16384)
-BOARD_USERDATAIMAGE_PARTITION_SIZE := 24763154432
-
-# Properties
-TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
-
-# Radio
-BOARD_HAVE_RADIO := true
-
-# Wifi
-WIFI_BUS := SDIO
-
-# Inherit from the proprietary version
+# Board device vendor
 -include vendor/sony/suzuran/BoardConfigVendor.mk

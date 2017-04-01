@@ -1,0 +1,2 @@
+# Assert
+TARGET_OTA_ASSERT_DEVICE := E5803,E5823,suzuran
