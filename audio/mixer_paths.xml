@@ -911,6 +911,10 @@
         <ctl name="SLIMBUS_0_RX Audio Mixer MultiMedia17" value="1" />
     </path>
 
+    <path name="deep-buffer-spk-playback">
+        <ctl name="SLIMBUS_0_RX Audio Mixer MultiMedia17" value="1" />
+    </path>
+
     <path name="high-res-playback headphones-hi-res">
         <path name="high-res-playback" />
     </path>
@@ -3053,6 +3057,8 @@
         <ctl name="ANC2 MUX" value="ZERO" />
         <ctl name="ADC3 Volume" value="10" />
         <ctl name="ADC2 Volume" value="10" />
+        <ctl name="RX2 Digital Volume" value="84" />
+        <ctl name="RX1 Digital Volume" value="84" />
         <ctl name="ANC1 FB MUX" value="ZERO" />
         <ctl name="ANC Function" value="OFF" />
     </path>
