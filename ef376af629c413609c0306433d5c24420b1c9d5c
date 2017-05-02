@@ -16,6 +16,24 @@
       "revId": "ef376af629c413609c0306433d5c24420b1c9d5c",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a486d77_97a55d06",
+        "filename": "device.mk",
+        "patchSetId": 4
+      },
+      "lineNbr": 131,
+      "author": {
+        "id": 11608
+      },
+      "writtenOn": "2017-05-02T19:27:19Z",
+      "side": 1,
+      "message": "Just thought it made sense to put it in one place and alphabetically, and that we could move it in the other devices, too. Don\u0027t you agree? :-)",
+      "parentUuid": "1a486d77_174bad5a",
+      "revId": "ef376af629c413609c0306433d5c24420b1c9d5c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
