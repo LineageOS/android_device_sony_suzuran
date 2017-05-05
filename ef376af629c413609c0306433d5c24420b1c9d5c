@@ -34,6 +34,24 @@
       "revId": "ef376af629c413609c0306433d5c24420b1c9d5c",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a486d77_70ce625c",
+        "filename": "device.mk",
+        "patchSetId": 4
+      },
+      "lineNbr": 131,
+      "author": {
+        "id": 9392
+      },
+      "writtenOn": "2017-05-05T21:01:04Z",
+      "side": 1,
+      "message": "Could make a separate commit for that (like \"alphabetize makefiles\" or something)",
+      "parentUuid": "1a486d77_97a55d06",
+      "revId": "ef376af629c413609c0306433d5c24420b1c9d5c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
