@@ -18,7 +18,7 @@
 $(call inherit-product, device/sony/kitakami-common/device-common.mk)
 
 # Get non-open-source specific aspects
-$(call inherit-product, vendor/sony/ivy/ivy-vendor.mk)
+$(call inherit-product, vendor/sony/suzuran/suzuran-vendor.mk)
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
@@ -55,19 +55,23 @@ PRODUCT_COPY_FILES += \
 
 # Screen density
 PRODUCT_AAPT_CONFIG := normal
-PRODUCT_AAPT_PREF_CONFIG := xxhdpi
+PRODUCT_AAPT_PREF_CONFIG := xhdpi
 
 # Boot animation
-TARGET_SCREEN_HEIGHT := 1920
-TARGET_SCREEN_WIDTH := 1080
+TARGET_SCREEN_HEIGHT := 1280
+TARGET_SCREEN_WIDTH := 720
 
 # Dalvik/HWUI
-$(call inherit-product, frameworks/native/build/phone-xxhdpi-2048-dalvik-heap.mk)
+$(call inherit-product, frameworks/native/build/phone-xhdpi-2048-dalvik-heap.mk)
 $(call inherit-product, frameworks/native/build/phone-xxhdpi-2048-hwui-memory.mk)
 
 # init
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/rootdir/bin/init.qcom.power.sh:system/bin/init.qcom.power.sh
+
+# Assertive Display
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/ad_calib.cfg:system/etc/ad_calib.cfg
 
 # Audio configuration
 PRODUCT_COPY_FILES += \
@@ -83,7 +87,14 @@ PRODUCT_COPY_FILES += \
 
 # NFC config
 PRODUCT_PACKAGES += \
-    nfc_nci.ivy
+    nfc_nci.suzuran
+
+# Fingerprint
+PRODUCT_COPY_FILES += \
+    frameworks/native/data/etc/android.hardware.fingerprint.xml:system/etc/permissions/android.hardware.fingerprint.xml
+
+PRODUCT_PACKAGES += \
+    fingerprintd
 
 # Flash LED config
 PRODUCT_COPY_FILES += \
