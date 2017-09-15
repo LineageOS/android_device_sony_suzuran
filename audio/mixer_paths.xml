@@ -1515,12 +1515,12 @@
 
     <!-- Gain offset target for dmic1 unit calibration -->
     <path name="dmic1-adj-gain">
-        <ctl name="DEC7 Volume" value="84" />
+        <ctl name="DEC7 Volume" value="90" />
     </path>
 
     <!-- Gain offset target for dmic2 unit calibration -->
     <path name="dmic2-adj-gain">
-        <ctl name="DEC9 Volume" value="84" />
+        <ctl name="DEC9 Volume" value="80" />
     </path>
 
     <path name="dmic1">
@@ -1889,26 +1889,26 @@
 
     <path name="stereo-mic">
         <path name="stereo-mic-common" />
-        <ctl name="DEC7 Volume" value="84" />
-        <ctl name="DEC9 Volume" value="84" />
+        <ctl name="DEC7 Volume" value="104" />
+        <ctl name="DEC9 Volume" value="104" />
     </path>
 
     <path name="stereo-mic-gain-low">
         <path name="stereo-mic-common" />
-        <ctl name="DEC7 Volume" value="84" />
-        <ctl name="DEC9 Volume" value="84" />
+        <ctl name="DEC7 Volume" value="104" />
+        <ctl name="DEC9 Volume" value="104" />
     </path>
 
     <path name="stereo-mic-gain-mid">
         <path name="stereo-mic-common" />
-        <ctl name="DEC7 Volume" value="97" />
-        <ctl name="DEC9 Volume" value="97" />
+        <ctl name="DEC7 Volume" value="117" />
+        <ctl name="DEC9 Volume" value="117" />
     </path>
 
     <path name="stereo-mic-gain-high">
         <path name="stereo-mic-common" />
-        <ctl name="DEC7 Volume" value="106" />
-        <ctl name="DEC9 Volume" value="106" />
+        <ctl name="DEC7 Volume" value="126" />
+        <ctl name="DEC9 Volume" value="126" />
     </path>
 
     <path name="speaker-mono-mic-common">
@@ -1917,22 +1917,22 @@
 
     <path name="speaker-mono-mic">
         <path name="speaker-mono-mic-common" />
-        <ctl name="DEC7 Volume" value="84" />
+        <ctl name="DEC7 Volume" value="104" />
     </path>
 
     <path name="speaker-mono-mic-gain-low">
         <path name="speaker-mono-mic-common" />
-        <ctl name="DEC7 Volume" value="84" />
+        <ctl name="DEC7 Volume" value="104" />
     </path>
 
     <path name="speaker-mono-mic-gain-mid">
         <path name="speaker-mono-mic-common" />
-        <ctl name="DEC7 Volume" value="89" />
+        <ctl name="DEC7 Volume" value="119" />
     </path>
 
     <path name="speaker-mono-mic-gain-high">
         <path name="speaker-mono-mic-common" />
-        <ctl name="DEC7 Volume" value="95" />
+        <ctl name="DEC7 Volume" value="115" />
     </path>
 
     <path name="speaker-mic-liquid">
