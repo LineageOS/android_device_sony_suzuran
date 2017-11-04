@@ -1579,8 +1579,8 @@
         <ctl name="SLIM_0_RX Channels" value="Two" />
         <ctl name="RX7 MIX1 INP1" value="RX1" />
         <ctl name="RX8 MIX1 INP1" value="RX2" />
-        <ctl name="RX7 Digital Volume" value="84" />
-        <ctl name="RX8 Digital Volume" value="84" />
+        <ctl name="RX7 Digital Volume" value="94" />
+        <ctl name="RX8 Digital Volume" value="94" />
         <ctl name="COMP0 Switch" value="1" />
         <ctl name="VI_FEED_TX Channels" value="Two" />
         <ctl name="SLIM0_RX_VI_FB_LCH_MUX"  value="SLIM4_TX" />
@@ -1595,8 +1595,8 @@
         <ctl name="SLIM_0_RX Channels" value="Two" />
         <ctl name="RX7 MIX1 INP1" value="RX1" />
         <ctl name="RX8 MIX1 INP1" value="RX2" />
-        <ctl name="RX7 Digital Volume" value="84" />
-        <ctl name="RX8 Digital Volume" value="84" />
+        <ctl name="RX7 Digital Volume" value="94" />
+        <ctl name="RX8 Digital Volume" value="94" />
         <ctl name="COMP0 Switch" value="1" />
         <ctl name="VI_FEED_TX Channels" value="Two" />
         <ctl name="SLIM0_RX_VI_FB_LCH_MUX"  value="SLIM4_TX" />
@@ -2050,9 +2050,9 @@
         <!--100 % of 20 register: 0x1B4-->
         <ctl name="HPHR Volume" value="20" />
         <!--68 % of 124 (rounded) register: 0x2B7-->
-        <ctl name="RX1 Digital Volume" value="76" />
+        <ctl name="RX1 Digital Volume" value="85" />
         <!--68 % of 124 (rounded) register: 0x2BF-->
-        <ctl name="RX2 Digital Volume" value="76" />
+        <ctl name="RX2 Digital Volume" value="85" />
     </path>
 
     <path name="headphones-regulation">
