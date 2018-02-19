@@ -21,4 +21,4 @@ Rear Camera  | 23 MP, LED flash
 Front Camera | 5.1 MP
 Release Date | October 2015
 
-![Sony Xperia Z5 Compact](http://cdn2.gsmarena.com/vv/pics/sony/sony-z5-compact1.jpg "Sony Xperia Z5 Compact")
+![Sony Xperia Z5 Compact](https://raw.githubusercontent.com/LineageOS/lineage_wiki/master/images/devices/suzuran.png "Sony Xperia Z5 Compact")
