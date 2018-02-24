@@ -8,7 +8,7 @@ etc/acdbdata/Sony/Sony_Headset_cal.acdb
 etc/acdbdata/Sony/Sony_Speaker_cal.acdb
 
 # Bluetooth
-etc/firmware/BCM43xx.hcd
+etc/firmware/BCM43xx.hcd|c5964eb6aa246c3536441d694bc36f21c4a97623
 
 # Camera
 bin/mm-qcamera-daemon
@@ -574,8 +574,8 @@ etc/firmware/touch_module_id_0x45.img
 etc/touch_fw_update.sh
 
 # Wifi
-etc/firmware/wlan/bcmdhd/fw_bcmdhd.bin
-etc/firmware/wlan/bcmdhd/fw_bcmdhd_apsta.bin
+etc/firmware/wlan/bcmdhd/fw_bcmdhd.bin|d242f536b1a14e77ab131ca1e8ecfe97ba1c01f9
+etc/firmware/wlan/bcmdhd/fw_bcmdhd_apsta.bin|fbc388da4ae2e3cd605928d8eb52490ba2ac45c1
 
 # Fingerprint
 vendor/firmware/tzfingerprint.mdt
